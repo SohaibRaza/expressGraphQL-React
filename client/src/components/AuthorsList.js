@@ -29,7 +29,7 @@ function AuthorsList(props) {
                     </div>
                     <div className="form-group">
                         <select className="form-control">
-                            <option value="seledt">Select Author</option>
+                            <option className="optnz">Select Author</option>
                             { displayBooksList(props.data) }
                         </select>
                     </div>
